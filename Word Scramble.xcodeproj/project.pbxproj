@@ -13,6 +13,8 @@
 		5C81EF7A2872FEF500929276 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C81EF682872FEF300929276 /* ContentView.swift */; };
 		5C81EF7B2872FEF500929276 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C81EF692872FEF500929276 /* Assets.xcassets */; };
 		5C81EF7C2872FEF500929276 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C81EF692872FEF500929276 /* Assets.xcassets */; };
+		5C81EF8628732FE600929276 /* WordList.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5C81EF8528732FE500929276 /* WordList.txt */; };
+		5C81EF8728732FE600929276 /* WordList.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5C81EF8528732FE500929276 /* WordList.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,7 @@
 		5C81EF6E2872FEF500929276 /* Word Scramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Word Scramble.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C81EF742872FEF500929276 /* Word Scramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Word Scramble.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C81EF762872FEF500929276 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		5C81EF8528732FE500929276 /* WordList.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WordList.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 			children = (
 				5C81EF672872FEF300929276 /* Word_ScrambleApp.swift */,
 				5C81EF682872FEF300929276 /* ContentView.swift */,
+				5C81EF8528732FE500929276 /* WordList.txt */,
 				5C81EF692872FEF500929276 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -157,6 +161,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C81EF8628732FE600929276 /* WordList.txt in Resources */,
 				5C81EF7B2872FEF500929276 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,6 +170,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C81EF8728732FE600929276 /* WordList.txt in Resources */,
 				5C81EF7C2872FEF500929276 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,6 +325,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -349,6 +356,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
